@@ -97,7 +97,7 @@ _probvec_cpu = guvectorize(
     cache=True
     )(_probvec)
 
-
+'PH: This defines a function within the file. Example comment for git.'
 def sample_without_replacement(n, k, num_trials=None, random_state=None):
     """
     Randomly choose k integers without replacement from 0, ..., n-1.
